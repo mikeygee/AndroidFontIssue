@@ -22,28 +22,32 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>
-            Test
-            <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>Nested</Text>
+          Test
+          <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>Nested</Text>
         </Text>
         <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>
-            Test
-            <Text style={{fontFamily: 'Roboto', fontSize: 20}}>Nested</Text>
+          Test
+          <Text style={{fontFamily: 'Roboto', fontSize: 20}}>Nested</Text>
         </Text>
         <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>
-            Test
-            <Text style={{fontFamily: 'serif', fontSize: 20}}>Nested</Text>
+          Test
+          <Text style={{fontFamily: 'serif', fontSize: 20}}>Nested</Text>
         </Text>
         <Text style={{fontFamily: 'customitalicfont', fontSize: 20}}>
-            Test
-            <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>Nested</Text>
+          Test
+          <Text style={{fontFamily: 'customitalicfont', fontSize: 20}}>Nested</Text>
+        </Text>
+        <Text style={{fontFamily: 'customitalicfont', fontSize: 20}}>
+          Test
+          <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>Nested</Text>
         </Text>
         <Text style={{fontFamily: 'serif', fontSize: 20}}>
-            Test
-            <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>Nested</Text>
+          Test
+          <Text style={{fontFamily: 'customthickfont', fontSize: 20}}>Nested</Text>
         </Text>
         <Text style={{fontFamily: 'serif', fontSize: 20}}>
-            Test
-            <Text style={{fontFamily: 'monospace', fontSize: 20}}>Nested</Text>
+          Test
+          <Text style={{fontFamily: 'monospace', fontSize: 20}}>Nested</Text>
         </Text>
       </View>
     );
